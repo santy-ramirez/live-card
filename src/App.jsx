@@ -6,6 +6,7 @@ import UsersComponent from "./components/UsersComponent";
 
 
 
+
 function App() {
     const [count, setCount] = useState("");
     const [profesion, setProfesion] = useState("");
@@ -19,7 +20,7 @@ function App() {
 
 useEffect(() => {
 
-    fetch("https://randomuser.me/api/?results=5")
+    fetch("https://randomuser.me/api/?results=6")
     .then((response) => response.json())
     .then((data) => getdataUser(data.results));
 
@@ -37,6 +38,7 @@ const handleChange = () => {
     <div>
 
       <div className="App">
+        
           <FormComponent 
           descripcion = {inputDescripcion} 
           profesion ={inputProfesion} 
@@ -54,7 +56,8 @@ const handleChange = () => {
         <div>
         <UsersComponent data={dataUser}></UsersComponent>
         </div>
-
+        <hr/>
+          <a href="">@santy ramirez</a>
       </div>
      
   );

@@ -1,7 +1,7 @@
 function FormComponent(props) {
    const style = {
-    "width": "200px",
-    "min-height": "200px",
+    "width": "100px",
+    "min-height": "100px",
     "border-radius": "180px",
    };
 

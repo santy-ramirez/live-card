@@ -5,11 +5,22 @@
   --color-cuaternary: #363062;
 
 }
-
+#root{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 2rem 0;
+ 
+}
 .App {
+  
+  box-shadow: 14px 17px 60px 0px rgba(64,61,64,1);
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
+  padding: 3rem;
+  background: rgb(178,174,211);
+  background: linear-gradient(90deg, rgba(178,174,211,1) 35%, rgb(231, 223, 223) 100%);
 }
 .titulo__form{
   text-align: center;
