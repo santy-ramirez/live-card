@@ -6,19 +6,19 @@ function FormComponent(props) {
           <h1 className="titulo__form">Create a Cart</h1>
           <form action="">
             <input
-            placeholder = " igresa tu nombre"
+            placeholder = " Igresa tu nombre"
             ref = {props.inpu} 
             onChange = {props.changef} 
             type="text"/>
             <br/>
             <input
-            placeholder = " igresa tu profesion"
+            placeholder = " Igresa tu profesion"
             ref = {props.profesion} 
             onChange = {props.changef} 
             type="text"/>
             <br/>
             <input
-            placeholder = " igresa unadescripcion"
+            placeholder = " Igresa unadescripcion"
             ref = {props.descripcion} 
             onChange = {props.changef} 
             type="text"/>
